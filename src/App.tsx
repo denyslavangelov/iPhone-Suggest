@@ -149,7 +149,7 @@ export default function EnhancedAppleStyleIPhoneRecommendationTool() {
   };
 
   const sendToOpenAI = async (formattedData: { question: string; answer: string }[]) => {
-    const apiKey = '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'; // Replace with your actual OpenAI API key
+    const apiKey = 'sk-35oX4YXpcSliiYyLbvzDO_-wDepdR9iODHgANt00_ST3BlbkFJjkwbsIaP6taxKQ-igWszPUlcHguHJZAz37yQC2FZYA'; // Replace with your actual OpenAI API key
     const apiUrl = 'https://api.openai.com/v1/chat/completions';
 
     const prompt = `Въз основа на следните въпроси и отговори за предпочитанията към iPhone, препоръчайте най-добрия модел iPhone и обяснете защо е най-добрият избор. Важно: върнете отговора във формат JSON с три полета: "model", "description" и "price". Следвайте точното форматиране и не добавяйте допълнителни символи извън JSON структурата.
