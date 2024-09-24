@@ -211,7 +211,7 @@ export default function EnhancedAppleStyleIPhoneRecommendationTool() {
     // Construct the link based on the extracted model number, defaulting to a base link if no number is found
     const link = modelNumber ? `https://istyle.bg/iphone-${modelNumber[0]}.html` : 'https://istyle.bg/iphone.html';
     // Construct the image path based on the extracted model number, defaulting to a placeholder if no number is found
-    const image = modelNumber ? `/images/iphone${modelNumber[0]}.png` : '/images/iphone13.png';
+    const image = modelNumber ? `/images/iphone${modelNumber[0]}.png` : '/images/iphonese.png';
     debugger;
     return {
       model: openAIResponse[0].model,
