@@ -148,7 +148,7 @@ export default function EnhancedAppleStyleIPhoneRecommendationTool() {
     }));
   };
 
-  const apiKey = process.env.REACT_APP_OPENAI_API_KEY;
+  const apiKey = process.env.REACT_APP_API_KEY;
   console.log('API Key:', apiKey)
 
   const sendToOpenAI = async (formattedData: { question: string; answer: string }[]) => {
