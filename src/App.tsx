@@ -144,7 +144,7 @@ export default function EnhancedAppleStyleIPhoneRecommendationTool() {
   const formatQuestionsAndAnswers = () => {
     return questions.map((q) => ({
       question: q.question,
-      answer: answers[q.id] || "Not answered"
+      answer: answers[q.id] || "Not answered2"
     }));
   };
 
