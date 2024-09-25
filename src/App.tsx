@@ -148,7 +148,7 @@ export default function EnhancedAppleStyleIPhoneRecommendationTool() {
     }));
   };
 
-  const apiKey = process.env.REACT_APP_API_KEY;
+  const apiKey = "sk-hd8o25fJX9Y3nrLxgtwffiBfqPEEbIHEM2HaXQq6A0T3BlbkFJJUdm7tw7B5fEQFjSZvbDtxEGrtLqvZr9dpdbJRjdwA";
   console.log('API Key:', apiKey)
 
   const sendToOpenAI = async (formattedData: { question: string; answer: string }[]) => {
